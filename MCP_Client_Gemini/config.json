@@ -1,0 +1,53 @@
+{
+  "Chat_UI_Enable": false,
+  "default_server_type": "custom_Craw4ai_server",
+  "MCP_Servers": {
+    "filesystem": {
+      "type": "npx",
+      "mode": "stdio",
+      "workspace": ".",
+      "connection": {
+        "command": "npx",
+        "args": ["@modelcontextprotocol/server-filesystem"],
+        "env": null
+      }
+    },
+	"excel": {            
+			"mode": "stdio",
+            "type": "npx",			
+			"connection":{
+			"command": "npx",			
+			"args": ["--yes", "@negokaz/excel-mcp-server"],
+            "env": {
+                "EXCEL_MCP_PAGING_CELLS_LIMIT": "4000"
+            }
+		}
+    },
+    "custom_Craw4ai_server": {
+      "type": "sse",
+      "mode": "sse",
+      "workspace": ".",
+      "connection": {
+        "url": "http://localhost:8051/sse"
+      }
+    },
+	"custom__server": {
+      "type": "http",
+      "mode": "http",
+      "workspace": ".",
+      "connection": {
+        "url": "http://localhost:3000/mcp"
+      }
+    }
+  },
+  
+  "Model": {
+    "name": "gemini-2.0-flash",
+    "temperature": 0,
+    "tool_config": {
+      "function_calling_config": {
+        "mode": "AUTO"
+      }
+    }
+  }
+}

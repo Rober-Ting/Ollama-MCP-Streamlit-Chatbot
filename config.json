@@ -1,0 +1,62 @@
+{
+  "default_server_type": "filesystem",
+  "MCP_Servers": {
+    "filesystem": {
+      "type": "npx",
+      "mode": "stdio",
+      "workspace": ".",
+      "connection": {
+        "command": "npx",
+        "args": [
+          "@modelcontextprotocol/server-filesystem",
+          "."
+        ],
+        "env": null
+      }
+    },
+    "excel": {
+      "mode": "stdio",
+      "type": "npx",
+      "connection": {
+        "command": "npx",
+        "args": [
+          "--yes",
+          "@negokaz/excel-mcp-server"
+        ],
+        "env": {
+          "EXCEL_MCP_PAGING_CELLS_LIMIT": "4000"
+        }
+      }
+    },
+    "custom_Craw4ai_server": {
+      "type": "sse",
+      "mode": "sse",
+      "workspace": ".",
+      "connection": {
+        "url": "http://localhost:8051/sse"
+      }
+    },
+    "custom_server": {
+      "type": "http",
+      "mode": "http",
+      "workspace": ".",
+      "connection": {
+        "url": "http://localhost:3000/mcp"
+      }
+    }
+  },
+  "UI_Settings": {
+    "CHAT_CONTAINER_HEIGHT": 500,
+    "STREAM_MODE": true
+  },
+  "model_setting": {
+    "default_prompt": "You are a helpful assistant who should always call available tools to solve problems"
+  },
+  "model_tool_support": {
+    "mistral:latest": true,
+    "wizardcoder:latest": false,
+    "deepseek-coder:latest": false,
+    "codellama:latest": false,
+    "phi:latest": false
+  }
+}

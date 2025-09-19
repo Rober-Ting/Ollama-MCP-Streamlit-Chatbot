@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Robert\\ML\\MCP_Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9B5BDB-C89E-4AFC-A826-FE25A4F9A1F6}|MCP_Client.pyproj|D:\\Robert\\ML\\MCP_Client\\MCP_Client_async.py||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{AE9B5BDB-C89E-4AFC-A826-FE25A4F9A1F6}|MCP_Client.pyproj|solutionrelative:MCP_Client_async.py||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9B5BDB-C89E-4AFC-A826-FE25A4F9A1F6}|MCP_Client.pyproj|D:\\Robert\\ML\\MCP_Client\\chat_setup.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AE9B5BDB-C89E-4AFC-A826-FE25A4F9A1F6}|MCP_Client.pyproj|solutionrelative:chat_setup.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9B5BDB-C89E-4AFC-A826-FE25A4F9A1F6}|MCP_Client.pyproj|D:\\Robert\\ML\\MCP_Client\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE9B5BDB-C89E-4AFC-A826-FE25A4F9A1F6}|MCP_Client.pyproj|solutionrelative:config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a0c5197d-0ac7-4b63-97cd-8872a789d233}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MCP_Client_async.py",
+              "DocumentMoniker": "D:\\Robert\\ML\\MCP_Client\\MCP_Client_async.py",
+              "RelativeDocumentMoniker": "MCP_Client_async.py",
+              "ToolTip": "D:\\Robert\\ML\\MCP_Client\\MCP_Client_async.py",
+              "RelativeToolTip": "MCP_Client_async.py",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-29T05:36:30.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "config.json",
+              "DocumentMoniker": "D:\\Robert\\ML\\MCP_Client\\config.json",
+              "RelativeDocumentMoniker": "config.json",
+              "ToolTip": "D:\\Robert\\ML\\MCP_Client\\config.json",
+              "RelativeToolTip": "config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-27T01:45:19.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "chat_setup.py",
+              "DocumentMoniker": "D:\\Robert\\ML\\MCP_Client\\chat_setup.py",
+              "RelativeDocumentMoniker": "chat_setup.py",
+              "ToolTip": "D:\\Robert\\ML\\MCP_Client\\chat_setup.py",
+              "RelativeToolTip": "chat_setup.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-16T03:14:05.236Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
